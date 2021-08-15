@@ -1,5 +1,7 @@
 <template>
-  <img alt="Tarfin logo" src="https://tarfin.com/img/logo.svg" />
+  <div class="router-container">
+    <router-view />
+  </div>
 </template>
 
 <script>
@@ -7,8 +9,5 @@ export default {
   name: "App",
 };
 </script>
-<style >
-img {
-  width: 300px;
-}
-</style>
+
+<style ></style>

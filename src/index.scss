@@ -1,0 +1,32 @@
+@import 'styles/reset';
+@import 'styles/variables';
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: $darkBlue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    min-width: 100px;
+    padding: 10px;
+    background-color: $darkBlue;
+    border: 1px solid $darkBlue;
+    color: $white;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $white;
+        color: $darkBlue;
+    }
+}
