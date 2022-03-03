@@ -11,13 +11,14 @@ Receive events from Ticketmaster API (https://developer.ticketmaster.com/product
 **Project requirements**
 
 * Build your table component from scratch. You can't use any existing Vue component for this project.
-* The component must have search capabilities. (Split your components into smaller components.) 
+* The component must have search (not filter) capabilities. (Split your components into smaller components.) 
 * The component must have pagination.
 * You should add an event detail page. Don't forget to add a show detail action to the table component.
 * You must write tests for your code. (We recommend to use Jest for tests)
 * You can add sorting feature for the table component. This feature is not a must but it is a big bonus. (If you decide to implement the sorting feature, make sure that the sorting mechanism doesn't need any other API requests.)
 * You can use `bootstrap` or `tailwindcss` as CSS framework.
 * Axios or any other alternatives can be used for HTTP requests.
+* Try to commit your changes every ~15 minutes. This will be a big bonus.
 
 **Submitting the finished task**   
 
